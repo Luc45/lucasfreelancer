@@ -1,4 +1,220 @@
-#menu {
-	padding: 10px 0;
-	border-bottom:1px solid #e3e3e3;
+body, html {
+	min-height:100%;
+	height:100%;
+}
+#inicio {
+	background:url("/img/bg.jpg");
+	min-width:100%;
+	min-height:100%;
+	width:100%;
+	height:100%;
+}
+#inicio .container.no-margin {
+	color:#FFF;
+}
+.no-margin {
+	padding-right: 0px;
+	padding-left: 0px;
+	height:100%;
+}
+div#gif {
+	float: left;
+}
+#lucas {
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+div#lucas-bustamante {
+	float: left;
+	margin-left: 4em;
+}
+#meu-email {
+	position:absolute;
+	top:30px;
+	right:0px;
+	font-family:"Gotham-Bold";
+	text-transform:uppercase;
+}
+#eu-sou {
+	text-align:center;
+	font-family:"Gotham-Bold";
+}
+#eu-sou .span {
+	
+}
+#eu-sou #freelancer-web {
+	text-transform: uppercase;
+	font-size: 5em;
+	max-width: 900px;
+	margin: auto;
+}
+.container-centralizar-vertical {
+	display: table;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.centralizar-vertical-row {
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.container.no-margin.relative {
+	position:relative;
+}
+#eu-sou span {
+	font-size: 21px;
+}
+#o-que-faco {
+	padding:80px 0px;
+}
+#o-que-faco div {
+	font-family:"Gotham-Book";
+	font-size:2em;
+	text-align:justify;
+	max-width:700px;
+	margin: auto;
+	-moz-text-align-last: center;
+    text-align-last: center;
+}
+#github {
+	overflow: hidden;
+	height:375px;
+	margin-top: -1px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	background-color: #614381;
+	background-image: -webkit-linear-gradient(#202d5f, #614381);
+	background-image: linear-gradient(#202d5f, #614381);
+	background-repeat: repeat-x;
+	border-bottom: 0;
+	box-shadow: inset 0 10px 20px rgba(0,0,0,0.1);
+	color: #fff;
+	text-align:center;
+	width: 100%;
+	padding:80px 0px;
+	position:relative;
+}
+#github .titulo {
+	font-family:"Gotham-Medium";
+	font-size: 2.2em;
+	margin: 15px auto;
+}
+#github .texto {
+	font-family:"Gotham-Medium";
+	font-size:1.3em;
+	color:#cecbda;
+	max-width:620px;
+	margin:auto;
+}
+.git {
+	max-width:980px;
+	margin:40px auto;
+}
+.rodape-github {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	height: 30px;
+	background-image: -webkit-linear-gradient(transparent, rgba(0,0,0,0.15));
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+}
+div#cerebro {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+#cerebro .titulo {
+	font-family: "Gotham-Medium";
+	text-align: center;
+	font-size: 2em;
+}
+.divtable {
+	display:table;
+}
+.cerebro-esquerdo {
+	float:right;
+}
+.cerebro-direito {
+	float:left;
+}
+.lista-esquerdo {
+	display:table-cell;
+	vertical-align:middle;
+}
+.lista-esquerdo li,
+.lista-direito li {
+	list-style:none;
+	margin: 5px 0;
+}
+.lista-direito {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:right;
+}
+#features-do-meu-cerebro {
+	margin:50px 0;
+	font-family:"Gotham-Medium";
+	font-size:18px;
+}
+#posso-ser-util {
+	background:#191919;
+	padding:80px;
+}
+#posso-ser-util .titulo {
+	font-family:"Gotham-Medium";
+	font-size:35px;
+	color:#fc0;
+	text-align:center;
+}
+form {
+	width: 600px;
+	border-radius: 10px;
+	background:#2a2a2a;
+	padding: 30px;
+	margin: 30px auto;
+}
+form label {
+	font-family:"Gotham-Book";
+	color:#fc0;
+}
+form input[type="text"], form select, form textarea {
+	width: 100%;
+	border-radius: 3px;
+	display: block;
+	font-size: 14px;
+	vertical-align: middle;
+	border: solid 1px #000;
+	height: 34px;
+	padding: 6px 12px;
+	margin-bottom: 20px;
+	background-color: #191919;
+	color: #f2f2f2;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+form input[type="text"]:focus, form select:focus, form textarea:focus {
+	border-color: #fc0;
+	outline: 0;
+	box-shadow: 0 0 6px #fc0;
+}
+form textarea {
+	height: 260px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+form .enviar {
+	text-align:right;
+}
+form input[type="submit"] {
+	display: inline-block;
+	background-color: #fc0;
+	padding: 10px 12px;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #191919;
+	font-size: 14px;
+	font-weight: normal;
+	vertical-align: middle;
+	border: 0;
 }
