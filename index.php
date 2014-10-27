@@ -45,9 +45,12 @@
 					<div id="eu-sou" class="centralizar-vertical-row">
 						<span>Eu sou</span>
 						<div id="freelancer-web">
-							Freelancer Web.
+							<h1>Freelancer Web.</h1>
 						</div>
 					</div>
+				</div>
+				<div id="scroll-down">
+					<img src="/img/scroll-down.png" alt="Lucas Bustamante - Freelancer Web BH"/>
 				</div>
 			</div>
 		</div>

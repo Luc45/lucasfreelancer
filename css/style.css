@@ -43,7 +43,7 @@ div#lucas-bustamante {
 #eu-sou .span {
 	
 }
-#eu-sou #freelancer-web {
+#eu-sou #freelancer-web h1 {
 	text-transform: uppercase;
 	font-size: 5em;
 	max-width: 900px;
@@ -359,4 +359,14 @@ form input[type="submit"] {
 }
 span.operadora {
 	font-size: 0.5em;
+}
+#scroll-down {
+	margin:auto;
+	width:50px;
+}
+#scroll-down img {
+	position:relative;
+	max-width:50px;
+	height:auto;
+	top:-60px;
 }
