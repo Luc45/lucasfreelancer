@@ -111,12 +111,12 @@
 						</ul>
 					</div>
 					<div class="cerebro-esquerdo">
-						<img src="/img/cerebro-esquerdo.svg" data-bottom-top="left:-300px;" data--150-bottom="left:0px;"/>
+						<img src="/img/cerebro-esquerdo.svg" data-150-bottom-top="left:-300px;" data--150-bottom="left:0px;"/>
 					</div>
 				</div>
 				<div class="col-md-6 divtable no-margin">
 					<div class="cerebro-direito">
-						<img src="/img/cerebro-direito.svg"  data-bottom-top="right:-300px;" data--150-bottom="right:0px;"/>
+						<img src="/img/cerebro-direito.svg"  data-150-bottom-top="right:-300px;" data--150-bottom="right:0px;"/>
 					</div>
 					<div class="lista-direito" data-bottom-top="opacity:0;" data--150-bottom="opacity:1;">
 						<ul>
