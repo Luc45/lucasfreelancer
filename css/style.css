@@ -66,10 +66,10 @@ div#lucas-bustamante {
 #eu-sou span {
 	font-size: 21px;
 }
-#o-que-faco {
+#brainstorm {
 	padding:80px 0px;
 }
-#o-que-faco div {
+#brainstorm .texto {
 	font-family:"Gotham-Book";
 	font-size:2em;
 	text-align:justify;
@@ -80,7 +80,7 @@ div#lucas-bustamante {
 }
 #github {
 	overflow: hidden;
-	height:375px;
+	height:510px;
 	margin-top: -1px;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 	background-color: #614381;
@@ -138,6 +138,12 @@ div#cerebro {
 }
 .cerebro-direito {
 	float:left;
+}
+.cerebro-esquerdo img {
+	position:relative;
+}
+.cerebro-direito img {
+	position:relative;
 }
 .lista-esquerdo {
 	display:table-cell;
@@ -217,4 +223,140 @@ form input[type="submit"] {
 	font-weight: normal;
 	vertical-align: middle;
 	border: 0;
+}
+#brainstorm .transparencia {
+	background:url("http://i.imgur.com/En26OZs.png") repeat-x;
+	height:100px;
+	width:100%;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:-100px;
+}
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+.thinker {
+	background:url("/img/brainstorm.png");
+	width:448px;
+	height: 600px;
+	position: relative;
+	margin-bottom: -80px;
+}
+.pensamentos {
+	background:url("/img/pensamentos.svg");
+	width:467px;
+	height:308px;
+	position:relative;
+}
+#lampada {
+	height:100%;
+	padding: 80px 0;
+	background:#191919;
+	z-index: 999;
+	position:relative;
+}
+.lampada {
+	background-repeat: no-repeat;
+	width:154px;
+	height:290px;
+	margin-top:-80px;
+}
+#anchor-lampada {
+	position:relative;
+	top:-79px;
+}
+#lampada {
+	font-family:"Gotham-Book";
+}
+#lampada .titulo {
+	font-size: 4em;
+	text-align: left;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+}
+#lampada .texto {
+	font-size:1.5em;
+	text-align:justify;
+}
+#lampada .texto a {
+	text-decoration:underline;
+}
+#lampada p {
+	margin: 1em 0;
+}
+#contato {
+	position:relative;
+	background: -moz-linear-gradient(#2799E2,#8DD1E1);
+	background: -ms-linear-gradient(#2799E2,#8DD1E1);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2799E2),color-stop(100%,#8DD1E1));
+	background: -webkit-linear-gradient(#2799E2,#8DD1E1);
+	background: -o-linear-gradient(#2799E2,#8DD1E1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2799E2', endColorstr='#8DD1E1');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2799E2', endColorstr='#8DD1E1')";
+	background: linear-gradient(#2799E2,#8DD1E1);
+	padding: 200px 0;
+}
+.nuvens {	
+	position:absolute;
+	top:-200px;
+	background:url("/img/nuvens.svg") repeat-x 100px 0;
+	width:100%;
+	height:354px;
+	z-index:12;
+}
+.nuvens2 {
+	position:absolute;
+	top:-200px;
+	background:url("/img/nuvens2.svg") repeat-x 200px 0;
+	width:100%;
+	height:388px;
+	z-index:11;
+}
+.container-fluid .no-margin {
+	padding:0;
+}
+.entre-em-contato {
+	text-align: center;
+	font-family: Gotham-Bold;
+	font-size: 4em;
+	color: #FFF;
+	position:relative;
+}
+.balao {
+	background:url("/img/balao.svg");
+	width:266px;
+	height:392px;
+	position:relative;
+	left:-100px;
+	z-index:9;
+}
+.nuvem {
+	background:url("/img/nuvem.svg");
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-size:contain;
+	z-index: 10;
+}
+.contatos {
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	position:relative;
+	top:-200px;
+	z-index: 999;
+	text-shadow: 0px 0px 6px rgba(0,0,0,0.7);
+}
+.contatos .normal {
+	font-family:Gotham-Book;
+}
+.contatos .bold {
+	font-family:Gotham-Bold;
+}
+span.operadora {
+	font-size: 0.5em;
 }

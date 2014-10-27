@@ -1,0 +1,9 @@
+@-skrollr-keyframes thinker {
+    0 {
+        bottom:-300px;
+    }
+
+    2000 {
+        bottom:0px;
+    }
+}
