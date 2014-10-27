@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		
